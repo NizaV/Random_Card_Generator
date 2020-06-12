@@ -14,3 +14,32 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+  background: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  width: 15rem;
+  height: 20rem;
+  border-radius: 1rem;
+}
+.suit {
+  display: flex;
+  font-size: 2.5rem;
+}
+.value {
+  font-size: 5rem;
+  margin: auto;
+}
+.right {
+  margin-left: auto;
+  transform: rotate(180deg);
+}
